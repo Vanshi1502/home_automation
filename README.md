@@ -27,8 +27,9 @@ This repository contains the code and documentation for a **Home Automation Syst
 1. Install required libraries (e.g., `DHT`, `ESP8266WiFi`, etc.)
 
 2. Connect hardware as per the report diagram
+3. https://ieee.nitk.ac.in/virtual_expo/report/118  
 
-3. Upload the code to NodeMCU and power the circuit
+4. Upload the code to NodeMCU and power the circuit
 
 ---
 
