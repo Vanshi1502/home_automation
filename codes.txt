@@ -1,6 +1,6 @@
-﻿#define BLYNK_TEMPLATE_ID "TMPL3NoeLHAuO"
-#define BLYNK_TEMPLATE_NAME "Home automation"
-#define BLYNK_AUTH_TOKEN "NGxHKZdMyK26w7YawzvVuf6K5Sjz2gw5"
+﻿#define BLYNK_TEMPLATE_ID "replace with TEMPLATE_ID"
+#define BLYNK_TEMPLATE_NAME "replace with TEMPLATE_NAME "
+#define BLYNK_AUTH_TOKEN "replace with AUTH_TOKEN "
 
 
 #include <ESP8266WiFi.h>
@@ -9,8 +9,8 @@
 
 
 // WiFi credentials
-char ssid[] = "Kausi";
-char pass[] = "88888888";
+char ssid[] = "replace with WIFI ssid";
+char pass[] = "replace with wifi password";
 
 
 // Relay pins
