@@ -1,17 +1,18 @@
 # HOME_AUTOMATION
 This repository contains the code and documentation for a **Home Automation System** developed as part of the IEEE NITK Virtual Expo 2025.
-Features
-Remote Appliance Control: Switch lights and fans on/off from anywhere using the Blynk mobile app.
 
-Sensor Integration: Monitor room temperature, humidity (DHT11), and light intensity (LDR) for automated or manual control.
+## Features
 
-Real-Time Feedback: Immediate status updates and control confirmation.
+-Remote Appliance Control: Switch lights and fans on/off from anywhere using the Blynk mobile app.
 
-Modular & Scalable: Easily add more devices or sensors as needed.
+-Sensor Integration: Monitor room temperature, humidity (DHT11), and light intensity (LDR) for automated or manual control.
 
-Secure Access: Uses authentication tokens for safe cloud connectivity.
+-Real-Time Feedback: Immediate status updates and control confirmation.
 
-Manual Override: Appliances can also be controlled using physical switches.
+-Modular & Scalable: Easily add more devices or sensors as needed.
+
+-Secure Access: Uses authentication tokens for safe cloud connectivity.
+
 ---
 
 ## 🛠️ Hardware Used
@@ -25,15 +26,10 @@ Manual Override: Appliances can also be controlled using physical switches.
 - Breadboard + Jumper Wires
 
 ---
-[Blynk App] <--Wi-Fi/Internet--> [Blynk Cloud] <--Wi-Fi--> [NodeMCU ESP8266]
-                                                  |            |         |
-                                      [DHT11 Sensor]   [LDR Sensor]  [Relay Module]
-                                                                      |
-                                                           [Fan, Light, etc.]
 
 
+## How It Works
 
-How It Works
 1.Hardware Setup:
 
 NodeMCU is wired to relay modules and sensors.
@@ -52,6 +48,5 @@ Blynk app (on iOS/Android) provides a dashboard for users to control devices and
 
 Users toggle appliances and monitor sensor readings via the app.
 
-Sensor data can trigger automated actions (e.g., turn on fan if temperature is high).
 ---
 
