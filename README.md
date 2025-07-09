@@ -1,5 +1,6 @@
 # HOME_AUTOMATION
 This repository contains the code and documentation for a **Home Automation System** developed as part of the IEEE NITK Virtual Expo 2025.
+The architecture integrates hardware (NodeMCU ESP8266, sensors, relays), cloud services (Blynk platform), and user interfaces (mobile app/web dashboard) to enable remote and automated appliance control.
 
 ## Features
 
